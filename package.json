@@ -2,7 +2,7 @@
   "name": "todolist",
   "version": "0.1.0",
   "engines": {
-    "node": "16.14.2",
+    "node": "16.0.0",
     "npm": "8.4.0"
   },
   "private": true,
