@@ -62,7 +62,7 @@ function Tasks() {
         
             <div>
            <NavLink className="link-Nav" to={`/task/${item._id}`}>
-            <li key={item._id} >
+            <li key={item._id} className="task-item">
              {item.task}
              {check(item.isComplete)}
              </li>
