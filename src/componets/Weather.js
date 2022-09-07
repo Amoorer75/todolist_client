@@ -12,8 +12,10 @@ function Weather() {
           const fetchData = async () => {
             try {
              const response = await Mainpage();
+             console.log(response);
     
             setCity(response.city)
+
     
              setWeathers(response.list);
            
@@ -32,7 +34,7 @@ function Weather() {
     const fiveDayForcast = weathers.map((forcast,index) => {
       console.log('fiveDayForcast',forcast)
     
-       if (forcast.dt_txt === "2022-09-07 00:00:00" ||forcast.dt_txt === "2022-09-08 00:00:00" ||forcast.dt_txt === "2022-09-09 00:00:00" ||forcast.dt_txt === "2022-09-10 00:00:00" ||forcast.dt_txt === "2022-09-11 00:00:00"){
+       if (forcast.dt_txt === "2022-09-09 00:00:00" ||forcast.dt_txt === "2022-09-10 00:00:00" ||forcast.dt_txt === "2022-09-11 00:00:00" ||forcast.dt_txt === "2022-09-12 00:00:00" ||forcast.dt_txt === "2022-09-13 00:00:00"){
       
       
       return(

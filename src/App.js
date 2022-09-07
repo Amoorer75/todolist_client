@@ -15,7 +15,7 @@ function App() {
       <h3>{location.state ? location.state.msg : null}</h3>
 
       <Routes>
-    <Route path='/home' element={<Tasks />} />
+    <Route path='/' element={<Tasks />} />
     <Route path='/create-task' element={<AddTask />} />
     <Route path="/weather" element={<Weather />} />
     <Route path='/task/:id' element={<Task />} />

@@ -4,7 +4,7 @@ function Nav() {
   
     return (
         <nav>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/create-task">Add to list</NavLink>
             <NavLink to="/weather">Weather</NavLink>
 
